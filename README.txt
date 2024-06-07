@@ -126,4 +126,6 @@ git commit -m "change background color on body"
 git status
 git log
 
+git add README.txt
 git commit -m "README.txt"
+
