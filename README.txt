@@ -111,3 +111,19 @@ git add styles.css
 
 REM git add .
 
+
+git commit -m "add basic styles"
+
+git commit -m "change background color on body"
+
+
+
+git add .
+git commit -m "change background color on body"
+
+
+..
+git status
+git log
+
+git commit -m "README.txt"
