@@ -44,4 +44,53 @@ Your branch is up to date with 'origin/main'.
 
 nothing to commit, working tree clean
 
+C:\Github\andersonsmsncom\legendary-journey-test>git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        GIT BRANCH DEV.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+C:\Github\andersonsmsncom\legendary-journey-test>git add GIT-BRANCH-DEV.txt
+
+C:\Github\andersonsmsncom\legendary-journey-test>git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        new file:   GIT-BRANCH-DEV.txt
+
+
+C:\Github\andersonsmsncom\legendary-journey-test>git push
+Everything up-to-date
+
+C:\Github\andersonsmsncom\legendary-journey-test>git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        new file:   GIT-BRANCH-DEV.txt
+
+
+C:\Github\andersonsmsncom\legendary-journey-test>git commit -m "GIT-BRANCH-DEV.txt"
+[main bfaf94c] GIT-BRANCH-DEV.txt
+ 1 file changed, 47 insertions(+)
+ create mode 100644 GIT-BRANCH-DEV.txt
+
+C:\Github\andersonsmsncom\legendary-journey-test>git push
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 765 bytes | 765.00 KiB/s, done.
+Total 3 (delta 1), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To https://github.com/andersonsmsncom/legendary-journey-test
+   8330cd4..bfaf94c  main -> main
+
 C:\Github\andersonsmsncom\legendary-journey-test>
